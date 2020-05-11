@@ -1,0 +1,28 @@
+package serveclickmodel.com;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import javax.swing.JOptionPane;
+public class DataAccessObject {
+	public Connection dbconnect()
+	{
+		try {
+			String dbPathName = "oracle.jdbc.OracleDriver";
+			String dbUrl = "jdbc:oracle:thin:sys/oracle@localhost:1521:orcl";
+			String url = "jdbc:oracle:thin:@family-pc:1521:serveclick";
+			Class.forName(dbPathName);
+			Connection conn = DriverManager.getConnection(url);
+			if (conn != null) {
+			    System.out.println("Connected");
+			}
+			return conn;
+		}
+		catch(Exception e)
+		{
+			JOptionPane.showMessageDialog(null,e);
+			return null;
+		}
+	}
+	
+}

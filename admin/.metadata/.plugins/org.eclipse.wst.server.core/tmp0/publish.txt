@@ -1,0 +1,3 @@
+#Tomcat publish data
+#Sat May 09 21:55:21 IST 2020
+org.eclipse.jst.jee.server\:serveclick=/home/vishwa_agri/Documents/apache-tomcat-9.0.34/wtpwebapps/serveclick

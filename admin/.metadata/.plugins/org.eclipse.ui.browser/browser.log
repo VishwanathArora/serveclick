@@ -1,0 +1,44 @@
+
+May 05, 2020 21:34:35.79 NEW SESSION
+May 05, 2020 21:34:35.79 [6977:6977:0505/213435.792335:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 21:34:35.85 [6937:6958:0505/213435.857355:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 05, 2020 21:34:35.91 Opening in existing browser session.
+May 05, 2020 22:01:37.69 [8098:8119:0505/220137.695103:ERROR:browser_process_sub_thread.cc(217)] Waited 6 ms for network service
+May 05, 2020 22:01:37.76 Opening in existing browser session.
+May 05, 2020 22:02:52.62 [8270:8291:0505/220252.622346:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 05, 2020 22:02:52.67 Opening in existing browser session.
+May 05, 2020 22:02:59.73 [8392:8412:0505/220259.735029:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:02:59.76 Opening in existing browser session.
+May 05, 2020 22:03:06.11 [8549:8549:0505/220306.116068:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:03:06.13 [8510:8530:0505/220306.135921:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:03:06.19 Opening in existing browser session.
+May 05, 2020 22:03:24.81 [8675:8675:0505/220324.810224:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:03:24.82 [8637:8657:0505/220324.821098:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:03:24.95 Opening in existing browser session.
+May 05, 2020 22:07:34.40 [9042:9062:0505/220734.400378:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 05, 2020 22:07:34.45 Opening in existing browser session.
+
+May 05, 2020 22:17:39.86 NEW SESSION
+May 05, 2020 22:17:39.86 [10002:10002:0505/221739.863939:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:17:39.87 [9962:9983:0505/221739.873812:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 05, 2020 22:17:39.92 Opening in existing browser session.
+May 05, 2020 22:24:19.28 [10304:10304:0505/222419.285839:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:24:19.30 [10264:10285:0505/222419.303466:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 05, 2020 22:24:19.35 Opening in existing browser session.
+May 05, 2020 22:25:01.61 [10554:10554:0505/222501.615652:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:25:01.64 [10515:10535:0505/222501.646731:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:25:01.75 Opening in existing browser session.
+May 05, 2020 22:27:44.52 [10796:10816:0505/222744.529047:ERROR:browser_process_sub_thread.cc(217)] Waited 7 ms for network service
+May 05, 2020 22:27:44.58 Opening in existing browser session.
+May 05, 2020 22:47:28.82 [13377:13377:0505/224728.827767:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:47:28.87 [13339:13359:0505/224728.875925:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:47:28.93 Opening in existing browser session.
+May 05, 2020 22:57:29.30 [13731:13731:0505/225729.306255:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 05, 2020 22:57:29.32 [13693:13713:0505/225729.322129:ERROR:browser_process_sub_thread.cc(217)] Waited 3 ms for network service
+May 05, 2020 22:57:29.46 Opening in existing browser session.
+May 06, 2020 02:05:07.07 [22954:22954:0506/020507.076616:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2020 02:05:07.15 [22916:22936:0506/020507.151580:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 06, 2020 02:05:07.18 Opening in existing browser session.
+May 06, 2020 02:07:55.84 [23329:23329:0506/020755.848101:ERROR:sandbox_linux.cc(368)] InitializeSandbox() called with multiple threads in process gpu-process.
+May 06, 2020 02:07:55.85 [23291:23311:0506/020755.851986:ERROR:browser_process_sub_thread.cc(217)] Waited 5 ms for network service
+May 06, 2020 02:07:55.91 Opening in existing browser session.

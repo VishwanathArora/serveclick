@@ -1,0 +1,6 @@
+package serveclickmodel.com;
+
+public class dataaccessobject {
+private Object db;
+
+}

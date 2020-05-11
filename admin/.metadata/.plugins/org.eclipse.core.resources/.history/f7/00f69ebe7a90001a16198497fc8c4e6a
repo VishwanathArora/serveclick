@@ -1,0 +1,43 @@
+package serveclick.com;
+
+import java.io.IOException;
+import org.json.JSONObject;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletContext;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+@WebServlet("/addEmployee")
+public class linker extends HttpServlet
+{
+//	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException
+//	{
+//		int i = Integer.parseInt(req.getParameter("name1"));
+//		PrintWriter out = res.getWriter();
+//		out.print("result"+i);
+//	}
+	public void doPost(HttpServletRequest req,HttpServletResponse res) throws IOException
+	{
+//		int i = Integer.parseInt(req.getParameter("name1"));
+		HttpSession session = req.getSession();
+		session.setAttribute("k", 1);
+//		res.sendRedirect("redirect");
+		ServletContext ctx = getServletContext();
+		String str = ctx.getInitParameter("Country");
+		PrintWriter out = res.getWriter();
+	    JSONObject documentObj = null;
+	    int intArray[] = null;
+	    intArray[0] = 1;
+	    documentObj = new JSONObject(intArray);	    
+		String s = new String("{interests : [{interestKey:Dogs}, {interestKey:Cats}]}");
+		res.setContentType("application/json");
+		res.setCharacterEncoding("UTF-8");
+		out.print(s);
+		out.flush();
+//		out.print("result"+i);
+	}
+}

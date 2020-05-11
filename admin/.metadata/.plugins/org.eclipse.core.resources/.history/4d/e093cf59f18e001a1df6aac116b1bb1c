@@ -1,0 +1,9 @@
+<form name="search" onsubmit="return makeSearch()" >
+  Name: <input type="text" name="name1"/>
+  Age: <input type="text" name="age1"/>
+  <input type="submit" name="Submit" value="Submit"/>
+</form>
+function makeSearch() {
+  alert("Code to make AJAX Call");
+  return false;
+}
